@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-django_cache_url.spec)
 
 Summary:	Use Cache URLs in your Django application
 Summary(pl.UTF-8):	Wykorzystanie URL-i cache'a w aplikacjach Django
